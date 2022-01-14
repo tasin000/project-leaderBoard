@@ -1,0 +1,337 @@
+/* reset codes and common codes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+
+  /* font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f3f1ff;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid #d1d1d1;
+  margin: 0 auto;
+}
+
+main #box {
+  max-width: 870px;
+  margin: 36px auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #562eff;
+  padding: 33px 0 0 33px;
+}
+
+/* navigation bar design */
+header {
+  background-color: #562eff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header #navigation .nav-bar {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+header #navigation .nav-bar .logo {
+  display: flex;
+  align-items: center;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+header #navigation .nav-bar .logo img {
+  width: 40.42px;
+  height: 51px;
+}
+
+header #navigation .nav-bar .logo h3 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+header #navigation .nav-bar .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+header #navigation .nav-bar .nav-links a {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px;
+}
+
+header #navigation .nav-bar .nav-links img {
+  width: 51px;
+  height: 51px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+
+/* top player design */
+main #top-players .top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main #top-players .top-players .player {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+main #top-players .top-players .player img {
+  height: 56px;
+  width: 56px;
+}
+
+main #top-players .top-players .player h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 15px;
+}
+
+/* top blogs design */
+main #top-blogs .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main #top-blogs .card {
+  display: flex;
+  margin: 30px;
+}
+
+main #top-blogs .card img {
+  width: 177px;
+  height: 117px;
+}
+
+main #top-blogs .card h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+main #top-blogs .card p {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #b6b6b6;
+}
+
+main #top-blogs .card p span {
+  color: #562eff;
+  cursor: pointer;
+}
+
+main #top-blogs .card div {
+  margin: 0 16px;
+}
+
+/* latest course design */
+main #latest-course .courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main #latest-course .courses .course {
+  margin: 30px;
+  border-radius: 10px;
+  background: #f3f1ff;
+  padding: 5px;
+}
+
+main #latest-course .courses .course img {
+  width: 224px;
+  height: 104px;
+}
+
+main #latest-course .courses .course h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.0336px;
+  line-height: 23px;
+  margin: 16.03px 0;
+}
+
+main #latest-course .courses .course p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.6913px;
+  line-height: 17px;
+  color: #ed6b4f;
+}
+
+main #latest-course .courses .course .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 19.25px 0;
+}
+
+main #latest-course .courses .course .rating {
+  display: flex;
+}
+
+main #latest-course .courses .course .rating img {
+  height: 11.81px;
+  width: 11.81px;
+  margin: 0 1px;
+}
+
+main #latest-course .courses .course .rating p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.6913px;
+  color: #a2a2a2;
+  margin: 0 3px;
+}
+
+main #latest-course .courses .course .time {
+  display: flex;
+  align-items: center;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  padding: 5px;
+}
+
+main #latest-course .courses .course .time img {
+  height: 20.03px;
+  width: 20.03px;
+  margin: 0 2px;
+}
+
+main #latest-course .courses .course .time span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.6913px;
+  line-height: 20px;
+  color: #ff4a60;
+}
+
+@media screen and (max-width: 992px) {
+  main #top-blogs .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  main #latest-course .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main #latest-course .courses .course {
+    text-align: center;
+  }
+
+  main #latest-course .courses .course .icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main #top-players .top-players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+
+  header {
+    position: static;
+  }
+
+  header #navigation .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header #navigation .nav-bar .logo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  header #navigation .nav-bar .nav-links {
+    flex-direction: column;
+  }
+
+  main #top-players .top-players {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main #top-blogs .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main #latest-course .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main #latest-course .courses .course img {
+    width: 100%;
+    height: auto;
+  }
+
+  main #latest-course .courses .course h5 {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+  }
+
+  main #latest-course .courses .course p {
+    font-size: 1.1rem;
+  }
+
+  main #latest-course .courses .course .icons {
+    display: flex;
+    justify-content: center;
+  }
+}
